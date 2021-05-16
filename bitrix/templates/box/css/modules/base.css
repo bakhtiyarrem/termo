@@ -1,0 +1,105 @@
+html {
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+body {
+  margin: 0;
+  font-family: "proxima_nova_rgregular", Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  color: #443133;
+  background-color: #efe9e0;
+  /*-webkit-transition: background-color 1.5s ease;
+  -moz-transition: background-color 1.5s ease;
+  transition: background-color 1.5s ease;*/
+}
+.light-color {
+  color: #d0beb3;
+}
+.blue-color {
+  color: #3cb7c6;
+}
+.orange-color {
+  color: #f2bb74;
+}
+.malina-font {
+  font-family: "als_malinaregular", Helvetica, sans-serif;
+}
+.hide {
+  display: none;
+}
+.invisible {
+  visibility: hidden;
+}
+.pull-left {
+  float: left;
+}
+.pull-right {
+  float: right;
+}
+.txt-left {
+  text-align: left;
+}
+.txt-center {
+  text-align: center;
+}
+.txt-right {
+  text-align: right;
+}
+::-moz-selection{
+
+}
+::selection {
+
+}
+.hide-text {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+.no-selection{
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+a {
+
+  text-decoration: none;
+}
+a:hover {
+
+  text-decoration: underline;
+}
+.btn {
+  display: inline-block;
+  vertical-align: top;
+  padding: 14px 30px;
+  color: #3cb7c6;
+  text-decoration: none !important;
+  font-size: 20px;
+  line-height: 22px;
+  border-radius: 30px;
+  background: #ffffff;
+  -webkit-transition: background-color 0.4s ease, color 0.4s ease;
+  -moz-transition: background-color 0.4s ease, color 0.4s ease;
+  transition: background-color 0.4s ease, color 0.4s ease;
+}
+.btn:hover {
+  color: #ffffff !important;
+  background-color: #ff7b7b;
+}
+.extra-bold {
+  font-family: "proxima_nova_thextrabold", Helvetica, sans-serif;
+}
+.bold {
+  font-family: "proxima_nova_rgbold", Helvetica, sans-serif;
+}
